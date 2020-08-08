@@ -4,32 +4,36 @@
 <head>
   <meta charset="utf-8">
   <title>Ask@Ashish</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h2>Query Form</h2>
-  <form class="" action="mailto:ashishkumaras789@gmail.com" method="post">
-    <table cellspacing='5' cellpaddig='2'>
-      <tr>
-        <td><label for="name">Enter Your Name:</label></td>
-        <td><input type="text" name="Your Name: " value="John" id="name"></td>
-      </tr>
-      <tr>
-        <td> <label for="DOB">Enter your DOB</label></td>
-        <td><input type="date" name="Your DOB: " id="DOB"></td>
-      </tr>
-      <tr>
-        <td><label for="gender">Please choose your gender:</label></td>
-      </tr>
-      <tr>
-        <td><label>Male </label><input type="checkbox" name="Male" value="" id="gender"></td>
-        <td> <label>Female </label><input type="checkbox" name="Female" value="" id="gender"></td>
-      </tr>
-    </table>
-    <p><label>Write Your Message:</label></p>
-    <input type="textarea name=" name" rows="20" cols="50" value="Write Your Message Here:-"><br><br>
-    <input type="submit" name="" value="submit">
-  </form>
+  <center>
+    <h2>Query Form</h2>
+    <form class="" action="mailto:ashishkumaras789@gmail.com" method="post">
+      <table cellspacing='5' cellpaddig='2'>
+        <tr>
+          <td><label for="name">Enter Your Name:</label></td>
+          <td><input class="init_value" type="text" name="Your Name: " value="John" id="name"></td>
+        </tr>
+        <tr>
+          <td> <label for="DOB">Enter your DOB</label></td>
+          <td><input class="init_value" type="date" name="Your DOB: " id="DOB"></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Please choose your gender:</label></td>
+        </tr>
+        <tr>
+          <td><label>Male </label><input type="checkbox" name="Male" value="" id="gender"></td>
+          <td> <label>Female </label><input type="checkbox" name="Female" value="" id="gender"></td>
+        </tr>
+      </table>
+      <p><label for="message">Write Your Message:</label></p>
+      <textarea  name="message" rows="10" cols="50" value="Write your message here:-"></textarea><br><br>
+      <input style="font: normal small-caps 100 10px/2 cursive" type="submit" name="" value="submit"><br><br>
+    </form>
+  </center>
+  <hr>
 </body>
 
 </html>

@@ -1,0 +1,41 @@
+body{
+  background-color: #eeeeee;
+}
+
+h2{
+  font-family: "Gill Sans", sans-serif;
+  color: #222831;
+}
+
+h3{
+  color: #393e46;
+  font-style: oblique;
+}
+
+a{
+  font: normal small-caps 100 15px cursive;
+}
+
+td{
+  font: italic small-caps bold 15px/2 cursive;
+}
+
+li{
+  font: italic small-caps bold 15px/2 cursive;
+}
+
+p{
+  font: italic small-caps bold 15px/2  cursive;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #00adb5;
+  border-width: 5px;
+  width: 10%;
+}
+
+.init_value{
+  font: normal small-caps 100 10px/2 cursive
+}
